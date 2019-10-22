@@ -2,6 +2,13 @@ baseURL = "https://ribanez.com.ar/"
 languageCode = "en-us"
 title = "Rodrigo Ibañez"
 theme = "ananke"
+googleAnalytics = "UA-36636133-1"
+
+[params]
+  favicon = "favicon.ico"
+  description = "Rodrigo Ibanez's personal website."
+  linkedin = "https://www.linkedin.com/in/rsibanez89/"
+
 
 [deployment]
 [[deployment.targets]]

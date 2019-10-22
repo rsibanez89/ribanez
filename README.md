@@ -12,7 +12,7 @@ This project was generated with [Hugo](https://gohugo.io).
 ### Deploying
 ```
 > rm -rf public
-> hugo serve --renderToDisk
+> hugo server -D --renderToDisk --baseURL=https://ribanez.com.ar --appendPort=false
 > hugo deploy --target=ribanez
 > aws cloudfront create-invalidation --distribution-id E118KAQ7JBX258 --paths '/*'
 ```
