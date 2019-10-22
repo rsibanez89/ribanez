@@ -1,0 +1,9 @@
+baseURL = "https://ribanez.com.ar/"
+languageCode = "en-us"
+title = "Rodrigo Ibañez"
+theme = "ananke"
+
+[deployment]
+[[deployment.targets]]
+name = "ribanez"
+URL = "s3://ribanez?region=us-east-2"
