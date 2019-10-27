@@ -1,0 +1,19 @@
+{
+  "name": "ribanez.com.ar",
+  "version": "1.0.0",
+  "author": "Rodrigo Ibanez",
+  "description": "Rodrigo Ibanez's personal website",
+  "scripts": {
+    "serve": "hugo serve",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E118KAQ7JBX258 --paths '/*'",
+    "deploy-i": "hugo deploy --target=ribanez",
+    "generate": "hugo server -D --renderToDisk --baseURL=https://ribanez.com.ar --appendPort=false",
+    "clean": "rm -rf public",
+    "deploy": "npm run clean && npm run generate && npm run deploy-i && npm run invalidate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsibanez89/ribanez.git"
+  },
+  "homepage": "https://www.ribanez.com.ar"
+}
