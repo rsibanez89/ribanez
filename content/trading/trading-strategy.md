@@ -4,11 +4,16 @@ date: 2020-03-29T15:13:24+11:00
 draft: false
 ---
 
+{{< hint danger >}}
+**Do not use this strategy on a real account**  
+This strategy has been created just for testing purposes.
+{{< /hint >}}
+
 # Crossing moving averages strategy
-The following strategy consist in defining 2 moving averages and buy or sell when they cross over each other.
-To do this, we have defined a fast moving average that considers the last 40 candles (green), and a slow moving average that considers the last 80 candles (red).
-Then, if the fast moving average crosses down the slow moving average, we consider that the market starts being bearish and it is a good oportunity to sell.
-On the other hand, if the fast moving average crosses up the slow moving average, we consider that the market starts being bullish and it is a good oportunity to sell.
+The following strategy consists in defining 2 moving averages and buy or sell when they cross over each other.
+To do this, we have defined a fast-moving average that considers the last 40 candles (green), and a slow-moving average that considers the last 80 candles (red).
+Then, if the fast moving average crosses down the slow moving average, we consider that the market starts being bearish and it is a good opportunity to sell.
+On the other hand, if the fast moving average crosses up the slow moving average, we consider that the market starts being bullish and it is a good opportunity to sell.
 
 ![Crossing moving averages](/trading/crossing-moving-averages.png)
 
@@ -18,19 +23,21 @@ Currency pair: GBPUSD
 Period: 15 minutes
 From: 2020.01.15 12:45
 To: 2020.03.26 14:13
-Fast moving average: 40 candles
-Slow moving average: 80 candles
+Fast-moving average: 40 candles
+Slow-moving average: 80 candles
 Stop loss: 70 pips, distance to the price
 Take profit: 120 pips, distance to the price
 Risk to reward: 1.7%
 ```
 
 ## Results
-After some tests I got the best results by using on a 1000 dollar account:
+After some tests I got the best results by using the following parameters on a 1000 dollar account:
 
 | Lot | SL |  TP | %Risk | Maximum money risked by trade |  Maximum money win by trade  | Total profit |
 |:---:|:--:|:---:|:-----:|:-----------------------------:|:----------------------------:|:------------:|
 | 0.1 | 70 | 120 |  1.7  |   73.6 (stop loss + spread)   | 116.4 (take profit - spread) |    1175.22   |
+
+As a conclusion, from 2020.01.15 to 2020.03.26 (3 months) this strategy would have generated a profit of 175% leaving the account with a total balance of 2175.22.
 
 Report:
 ![Crossing moving averages](/trading/crossing-moving-averages-report.png)
@@ -41,6 +48,9 @@ Graph:
 ## Code
 ```csharp
 //+------------------------------------------------------------------+
+//| DO NOT USE THIS STRATEGY ON A REAL ACCOUNT                       |
+//| This strategy has been created just for testing purposes.        |
+//|                                                                  |
 //|                               CrossingMovingAveragesStrategy.mq4 |
 //|                                                   Rodrigo Ibanez |
 //|                                       https://www.ribanez.com.ar |
