@@ -37,13 +37,16 @@ After some tests I got the best results by using the following parameters on a 1
 |:---:|:--:|:---:|:-----:|:-----------------------------:|:----------------------------:|:------------:|
 | 0.1 | 70 | 120 |  1.7  |   73.6 (stop loss + spread)   | 116.4 (take profit - spread) |    1175.22   |
 
-As a conclusion, from 2020.01.15 to 2020.03.26 (3 months) this strategy would have generated a profit of 175% leaving the account with a total balance of 2175.22.
+See the full report [HERE](../crossing-moving-averages-strategy-report.html)
 
 Report:
 ![Crossing moving averages](/trading/crossing-moving-averages-report.png)
 
 Graph:
 ![Crossing moving averages](/trading/crossing-moving-averages-graph.png)
+
+We can see from the graphs that the strategy started generating real profit after 2020.02.20, which is when the market started experiencing higher volatility.
+As a conclusion, from 2020.01.15 to 2020.03.26 (3 months) this strategy would have generated a profit of 175% leaving the account with a total balance of 2175.22.
 
 ## Code
 ```csharp
