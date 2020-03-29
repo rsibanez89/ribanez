@@ -9,6 +9,7 @@ googleAnalytics = "UA-36636133-1"
   description = "Rodrigo Ibanez's personal website."
   linkedin = "https://www.linkedin.com/in/rsibanez89/"
   BookSection = '*'
+  BookMenuBundle = '/menu'
 
 
 [deployment]
