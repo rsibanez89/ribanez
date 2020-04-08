@@ -1,0 +1,4 @@
+
+{{ if (ne .Params.commentable false) }}
+  {{ template "_internal/disqus.html" . }}
+{{ end }}

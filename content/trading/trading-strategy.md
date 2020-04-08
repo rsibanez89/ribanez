@@ -13,7 +13,7 @@ This strategy has been created just for testing purposes.
 The following strategy consists in defining 2 moving averages and buy or sell when they cross over each other.
 To do this, we have defined a fast-moving average that considers the last 40 candles (green), and a slow-moving average that considers the last 80 candles (red).
 Then, if the fast moving average crosses down the slow moving average, we consider that the market starts being bearish and it is a good opportunity to sell.
-On the other hand, if the fast moving average crosses up the slow moving average, we consider that the market starts being bullish and it is a good opportunity to sell.
+On the other hand, if the fast moving average crosses up the slow moving average, we consider that the market starts being bullish and it is a good opportunity to buy.
 
 ![Crossing moving averages](/trading/crossing-moving-averages.png)
 

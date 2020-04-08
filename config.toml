@@ -3,6 +3,20 @@ languageCode = "en-us"
 title = "Rodrigo Ibañez"
 theme = "book"
 googleAnalytics = "UA-36636133-1"
+disqusShortname = "ribanez-com-ar"
+
+
+[menu]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/rsibanez89"
+  weight = 10
+
+[[menu.after]]
+  name = "Linkedin"
+  url = "https://github.com/rsibanez89"
+  weight = 20
+
 
 [params]
   favicon = "favicon.ico"
