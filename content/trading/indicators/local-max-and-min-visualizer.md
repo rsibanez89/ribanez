@@ -5,8 +5,7 @@ draft: false
 ---
 
 The purpose of this indicator is just for me to undestand how to draw indicators in MetaTrader4 and it has no technical meaning.
-This indicator shows with blue and red dots the most recent Hights and Lows in the chart considering the last X candles.
-And it is inspired on this [tutorial](https://www.youtube.com/watch?v=2inA41MmjTQ&t).
+This indicator shows with blue and red dots the most recent Hights and Lows in the chart considering the last X candles and it is inspired on this [tutorial](https://www.youtube.com/watch?v=2inA41MmjTQ&t).
 
 ![Local max and min](/trading/indicators-max-min.png)
 

@@ -12,3 +12,4 @@ headless: true
     - [Local max and min visualizer]({{< relref "/trading/indicators/local-max-and-min-visualizer" >}})
   - [Strategies]({{< relref "/trading/strategies" >}})
     - [Crossing moving averages]({{< relref "/trading/strategies/crossing-moving-averages" >}})
+    - [Ichimoku]({{< relref "/trading/strategies/ichimoku" >}})

@@ -17,7 +17,8 @@ On the other hand, if the fast moving average crosses up the slow moving average
 
 ![Crossing moving averages](/trading/crossing-moving-averages.png)
 
-## Parameters tested
+## Parameters used for testing
+After some tests I got the best results by using the following parameters on a 1000 dollar account:
 ```
 Currency pair: GBPUSD
 Period: 15 minutes
@@ -28,15 +29,11 @@ Slow-moving average: 80 candles
 Stop loss: 70 pips, distance to the price
 Take profit: 120 pips, distance to the price
 Risk to reward: 1.7%
+Maximum money risked by trade: 73.6 (stop loss + spread)
+Maximum money win by trade: 116.4 (take profit - spread)
 ```
 
 ## Results
-After some tests I got the best results by using the following parameters on a 1000 dollar account:
-
-| Lot | SL |  TP | %Risk | Maximum money risked by trade |  Maximum money win by trade  | Total profit |
-|:---:|:--:|:---:|:-----:|:-----------------------------:|:----------------------------:|:------------:|
-| 0.1 | 70 | 120 |  1.7  |   73.6 (stop loss + spread)   | 116.4 (take profit - spread) |    1175.22   |
-
 See the full report [HERE](../crossing-moving-averages-strategy-report.html)
 
 Report:
