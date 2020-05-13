@@ -34,7 +34,7 @@ My present career aim is to work with the latest languages, frameworks, and arch
 > **2007 - 2010** | Programmer Analyst, UNICEN University, Tandil, Buenos Aires, Argentina.
 
 ### Publications
-> **2016</b> | Ibañez R., Soria A., Teyseyre A., Rodriguez G., Campo M. “Approximate String Matching: A lightweight approach to recognize gestures with Kinect”. In Pattern Recognition, Elsevier, 2016. http://dx.doi.org/10.1016/j.patcog.2016.08.022
+> **2016** | Ibañez R., Soria A., Teyseyre A., Rodriguez G., Campo M. “Approximate String Matching: A lightweight approach to recognize gestures with Kinect”. In Pattern Recognition, Elsevier, 2016. http://dx.doi.org/10.1016/j.patcog.2016.08.022
 
 > **2014** | Ibañez R., Soria A., Teyseyre A., Campo M. “Easy gesture recognition for Kinect”. In Advances in Engineering Software, Elsevier, 2014. http://dx.doi.org/10.1016/j.advengsoft.2014.07.005
 

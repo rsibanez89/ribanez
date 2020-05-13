@@ -6,6 +6,11 @@ headless: true
 - [Posts]({{< relref "/posts" >}})
   - [Creating your own website]({{< relref "/posts/creating-your-own-website" >}})
 <br>
+
+- [SQL]({{< relref "/sql" >}})
+  - [Datatypes precision]({{< relref "/sql/datatypes-precision" >}})
+<br>
+
 - [Trading]({{< relref "/trading" >}})
   - [Basics]({{< relref "/trading/basics/index" >}})
   - [Indicators]({{< relref "/trading/indicators" >}})
@@ -13,3 +18,4 @@ headless: true
   - [Strategies]({{< relref "/trading/strategies" >}})
     - [Crossing moving averages]({{< relref "/trading/strategies/crossing-moving-averages" >}})
     - [Ichimoku]({{< relref "/trading/strategies/ichimoku" >}})
+<br>

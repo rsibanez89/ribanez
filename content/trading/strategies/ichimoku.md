@@ -22,7 +22,7 @@ To open a buy position:
 From 1 to 4, the rules are strict and easy to get from the indicator. The fifth rule is calculated in the following way:
 * We will position the stop loss below the cloud with a small margin.
 * We have defined a risk to reward ratio of 2.4%, which means that the take profit is 2.4 bigger than the stop loss. In this way, we know where to put our take profits and stop loss based on the current price.
-* We get the range in which the price have moved in the last 75 candles. If the range is bigger than our take profit it means that the trade viable and we will open the buy position.
+* We get the range in which the price has moved in the last 75 candles. If the range is bigger than our take profit it means that the trade viable and we will open the buy position.
 
 On the other hand, to open a sell position we check the following rules:
 1. The price is below the cloud with a strong down movement.
