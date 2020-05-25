@@ -5,9 +5,9 @@
   "description": "Rodrigo Ibanez's personal website",
   "scripts": {
     "serve": "hugo serve",
-    "invalidate": "aws cloudfront create-invalidation --distribution-id E118KAQ7JBX258 --paths '/*'",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E118KAQ7JBX258 --paths \"/*\"",
     "deploy-i": "hugo deploy --target=ribanez",
-    "generate": "hugo server -D --renderToDisk --baseURL=https://ribanez.com.ar --appendPort=false",
+    "generate": "hugo --baseURL=https://ribanez.com.ar --buildDrafts",
     "clean": "rm -rf public",
     "deploy": "npm run clean && npm run generate && npm run deploy-i && npm run invalidate"
   },

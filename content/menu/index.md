@@ -9,6 +9,7 @@ headless: true
 
 - [SQL]({{< relref "/sql" >}})
   - [Datatypes precision]({{< relref "/sql/datatypes-precision" >}})
+  - [Avoid using try-catch]({{< relref "/sql/avoid-try-catch" >}})
 <br>
 
 - [Trading]({{< relref "/trading" >}})
