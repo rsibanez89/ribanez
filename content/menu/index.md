@@ -10,6 +10,7 @@ headless: true
 - [SQL]({{< relref "/sql" >}})
   - [Datatypes precision]({{< relref "/sql/datatypes-precision" >}})
   - [Avoid using try-catch]({{< relref "/sql/avoid-try-catch" >}})
+  - [The OVER clause]({{< relref "/sql/over-clause" >}})
 <br>
 
 - [Trading]({{< relref "/trading" >}})
