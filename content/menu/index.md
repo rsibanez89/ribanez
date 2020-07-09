@@ -15,6 +15,8 @@ headless: true
 
 - [Trading]({{< relref "/trading" >}})
   - [Basics]({{< relref "/trading/basics/index" >}})
+  - [Google sheet tricks]({{< relref "/trading/spreadsheet" >}})
+    - [Starting]({{< relref "/trading/spreadsheet/starting" >}})
   - [Indicators]({{< relref "/trading/indicators" >}})
     - [Local max and min visualizer]({{< relref "/trading/indicators/local-max-and-min-visualizer" >}})
   - [Strategies]({{< relref "/trading/strategies" >}})
